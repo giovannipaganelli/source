@@ -6,7 +6,7 @@
       * Programmatore  :Andrea Somaini
       * Data           :26/04/2016
      ***************************************************************
-      * Modifiche      :.....
+      * Modifiche      :.....                       ggg
      ***************************************************************
       *Definizione files
      FAF607FM   cf   e             Workstn INFDS(WSFBA)
