@@ -50,7 +50,7 @@
 
                  n_len = %len(%trim(num_char));
 
-           // INserito commento     fff
+           // INserito commento
                 for  x=1 to n_len ;
                      c_val = %subst(num_char:x:1) ;
                      //Verifico se numerico
