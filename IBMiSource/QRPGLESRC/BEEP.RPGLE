@@ -52,7 +52,7 @@
               Write w1;
               write w1;
           //  Callp sleep(DlySeconds);
-          // Modificao e GIT example  prob   palazzo
+          // Modificao e GIT example  prob   palazzo culo
              Endfor;
          Exfmt  w1;
 
