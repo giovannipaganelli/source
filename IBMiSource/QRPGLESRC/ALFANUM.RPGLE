@@ -62,7 +62,7 @@
                        endmon ;
                 Endfor ;
 
-            //Verifico che sia un numero ffff
+            //Verifico che sia un numero aaaa
                    monitor ;
                      N_value_6 = %int(%trim(num_val_c)) ;
                    on-error ;
