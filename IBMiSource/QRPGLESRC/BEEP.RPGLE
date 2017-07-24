@@ -3,6 +3,7 @@
      H bnddir('MODSNSILE')
      H option(*srcstmt:*nodebugio)
      H optimize(*NONE)
+<<<<<<< HEAD
      *---------------------------------------------------------------*
      *           E R M E N E G I L D O   Z E G N A                   *
      *                                                               *
@@ -11,20 +12,33 @@
      * Descrizione   : Prova beep su window                          *
      *                                                               *
      *                                                               *
-     *  (®) E.Z. Divisione Formale    MODIFICATOOOOO  f  . ggg     .    *
+     *  (®) E.Z. Divisione Formale    MODIFICATOOOOO  fgg. ggg     .    *
      *
      *  - Sistemi Informativi -                                      *
      *---------------------------------------------------------------*
+=======
+     ?*---------------------------------------------------------------*
+     ?*           E R M E N E G I L D O   Z E G N A                   *
+     ?*                                                               *
+     ?* Azienda       : CONSITEX SA   **FFF                                *
+     ?* Programma     : BEEP                                          *
+     ?* Descrizione   : Prova beep su window       BFDP               *
+     ?*                                                               *
+     ?*                                                               *
+     ?*  (�) E.Z. Divisione Formale                                   *
+     ?*  - Sistemi Informativi -                                      *
+     ?*---------------------------------------------------------------*
+>>>>>>> branch 'develop' of https://github.com/giovannipaganelli/source.git
      FBEEPFM    cf   e             workstn INFDS(WSFBA)
-     *---------------------------------------------------------------*
+     ?*---------------------------------------------------------------*
       *INFDS DELLA DSPF:
      D WSFBA           DS
      D  @WSREC                38     45                                         Nome record
      D  @WSAID               369    369                                         Help attivato
      D  @WSCUR               370    371B 0                                      Posizione cursore
      D  @WSSFR               378    379B 0                                      N[reg subfile attivo
-     *
-    D PGMDS          SDS
+     ?*
+    ?D PGMDS          SDS
      D  @pgm                   1     10
      D  @user                254    263
      D  @sds81                81    269
@@ -33,17 +47,17 @@
      D  @nsen                227    232  0
      D  @stat            *status
      D  @sds                   1    253
-     *
+     ?*
      D TitWin          C                   CONST(' Errore Barcode Matricola ')
      D j               s              5s 0 inz
      D max             s              5s 0 inz (3)
      D DlySeconds      s              5s 0 inz(1)
      D sleep           PR            10U 0 extproc('sleep')
      D   seconds                     10U 0 value
-     * ------------------------------------------------------------
-     * --- M A I N
-     * ------------------------------------------------------------
-     *
+     ?* ------------------------------------------------------------
+     ?* --- M A I N
+     ?* ------------------------------------------------------------
+     ?*
      c                   write     w1
      c                   write     w1
       /free
@@ -59,4 +73,4 @@
 
          eval *inlr=*on ;
       /end-free
-     * ----------------------------------------------
+     ?* ----------------------------------------------

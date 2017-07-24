@@ -1,10 +1,10 @@
-     H*BETD DECEDIT(*JOBRUN) DATEDIT(*DMY/) BNDDIR('MODSNSILE')
+﻿     H*BETD DECEDIT(*JOBRUN) DATEDIT(*DMY/) BNDDIR('MODSNSILE')
 BETD H DECEDIT(*JOBRUN) DATEDIT(*YMD/) BNDDIR('MODSNSILE')
      H OPTION(*NODEBUGIO)
      *---------------------------------------------------------------*
      *           E R M E N E G I L D O   Z E G N A                   *
-     *                                                               *
-     * Azienda       : CONSITEX                                      *
+     *                                                                *
+     * Azienda       : CONSITEX  **                                    *
      * Programma     : BF003L                                        *
      * Descrizione   : Driver aggiornamento archivi da CSIS a SNS    *
      * Data          : 26 Settembre 2006                             *
