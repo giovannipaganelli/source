@@ -11,7 +11,7 @@
      * Descrizione   : Prova beep su window                          *
      *                                                               *
      *                                                               *
-     *  (®) E.Z. Divisione Formale                                   *
+     *  (®) E.Z. Divisione Formale    LLLLL                          *
      *  - Sistemi Informativi -                                      *
      *---------------------------------------------------------------*
      FBEEPFM    cf   e             workstn INFDS(WSFBA)
