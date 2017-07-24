@@ -11,7 +11,7 @@
      * Descrizione   : Prova beep su window                          *
      *                                                               *
      *                                                               *
-     *  (®) E.Z. Divisione Formale    MODIFICATOOOOO    . gg     .    *
+     *  (®) E.Z. Divisione Formale    MODIFICATOOOOO    . ggg     .    *
      *
      *  - Sistemi Informativi -                                      *
      *---------------------------------------------------------------*
